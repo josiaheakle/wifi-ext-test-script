@@ -36,7 +36,7 @@ def pingServer():
 
 	# If cannot get icon, return -1
 	try:
-		requests.get('https://portal.myluxedo.com/static/luxedo/icons/hexagon.svg?vsn=3.18.0')
+		requests.get('https://luxedo-dev.s3.amazonaws.com/static/content/projector/project/507V.mp4')
 	except:
 		print('Cannot get icon!')
 		return -1
